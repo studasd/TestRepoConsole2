@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRepoConsole2", "TestRepoConsole2\TestRepoConsole2.csproj", "{C56D4D23-88D5-45FC-AA42-0D413A9423A8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{C2A7EF60-5C74-4BEF-B107-FDD00B227725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRepoLib", "TestRepoLib\TestRepoLib\TestRepoLib.csproj", "{FC0A2BD8-8243-4669-B4FB-2616E4C35974}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{C56D4D23-88D5-45FC-AA42-0D413A9423A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C56D4D23-88D5-45FC-AA42-0D413A9423A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C56D4D23-88D5-45FC-AA42-0D413A9423A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC0A2BD8-8243-4669-B4FB-2616E4C35974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0A2BD8-8243-4669-B4FB-2616E4C35974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0A2BD8-8243-4669-B4FB-2616E4C35974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0A2BD8-8243-4669-B4FB-2616E4C35974}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC0A2BD8-8243-4669-B4FB-2616E4C35974} = {C2A7EF60-5C74-4BEF-B107-FDD00B227725}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {633E2926-C688-412A-AE3E-C60317479576}
