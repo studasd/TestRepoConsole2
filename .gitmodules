@@ -1,0 +1,3 @@
+[submodule "TestRepoLib"]
+	path = TestRepoLib
+	url = https://github.com/studasd/TestRepoLib
